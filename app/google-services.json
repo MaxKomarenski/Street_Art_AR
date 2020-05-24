@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883155250068",
+    "firebase_url": "https://street-art-ar.firebaseio.com",
+    "project_id": "street-art-ar",
+    "storage_bucket": "street-art-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883155250068:android:364c7f09388abb9ceffd81",
+        "android_client_info": {
+          "package_name": "com.nta.streetartar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883155250068-b44ug9pha3de0v9p9l289tr8skkki8nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nta.streetartar",
+            "certificate_hash": "50a1131dadc370aad62e29ddf6360a656e3c9a1d"
+          }
+        },
+        {
+          "client_id": "883155250068-5fk2kd25chp1411vbomas6oov0uss2ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfsy7NcEGqbXPDdY-UnfUVmwhluJRqKik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883155250068-5fk2kd25chp1411vbomas6oov0uss2ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

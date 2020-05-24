@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Street Art AR</string>
+
+    <string name="place_holder">Place Holder</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="welcome_text">This is the "Street Art AR" Demo. The aim of this application is to show to the user the main features of the future "Street Art AR" app.\nSo let\'s start</string>
+
+    <string name="login">Login</string>
+    <string name="login_text">On this screen you can authenticate via Google. Just click on the "Sign in" button and you will see the dialog where you can choose one of the gmails. Gmail is the best choice for applications that don\'t need complicated authentication because every user of Android phone has it.</string>
+
+    <string name="map">Map</string>
+    <string name="map_text">This is the "Google Map" screen. Here users are able to see their current location and in the future, they also will see markers on the map that will represent 3D objects. When users will change their current location, the market, on a map, will be updated.</string>
+
+    <string name="ar">AR</string>
+    <string name="ar_text">This screen is the most difficult part of the project. Please, move your phone until it will detect the plane. When it happens, you will see the white dots on the surface. Afterward, please, click on the "Add Object" button.</string>
+
+    <string name="storage">Storage</string>
+    <string name="storage_text">This is the screen where you can upload files to Firebase storage. For better example, for now, you can upload only images.</string>
+
+    <string name="last_word">These were all features which I wanted to present in this Demo. Thanks for your attention.\nAll the best.</string>
+</resources>

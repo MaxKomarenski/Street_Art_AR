@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.nta.streetartar.main_flow.step_1_welcome.WelcomeFragment"
+        android:label="welcome_fragment"
+        tools:layout="@layout/welcome_fragment" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.nta.streetartar.main_flow.step_2_login.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.nta.streetartar.main_flow.step_3_map.MapFragment"
+        android:label="map_fragment"
+        tools:layout="@layout/map_fragment" >
+        <action
+            android:id="@+id/action_mapFragment_to_arExampleFragment"
+            app:destination="@id/arExampleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/arExampleFragment"
+        android:name="com.nta.streetartar.main_flow.step_4_ar.ArExampleFragment"
+        android:label="ar_example_fragment"
+        tools:layout="@layout/ar_example_fragment" >
+        <action
+            android:id="@+id/action_arExampleFragment_to_storageFragment"
+            app:destination="@id/storageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storageFragment"
+        android:name="com.nta.streetartar.main_flow.step_5_storage.StorageFragment"
+        android:label="storage_fragment"
+        tools:layout="@layout/storage_fragment" >
+        <action
+            android:id="@+id/action_storageFragment_to_thankYouFragment"
+            app:destination="@id/thankYouFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thankYouFragment"
+        android:name="com.nta.streetartar.main_flow.step_6_thanks.ThankYouFragment"
+        android:label="thank_you_fragment"
+        tools:layout="@layout/thank_you_fragment" />
+</navigation>
